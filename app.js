@@ -19,5 +19,8 @@ switch (week) {
     case `traiblazer`:
         console.log(`400 000 000`);
         break;
+    case `Damas`:
+        console.log(`86 000 000`);
+        break;
     default:
 }
