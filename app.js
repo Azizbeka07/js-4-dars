@@ -20,5 +20,4 @@ switch (week) {
         console.log(`400 000 000`);
         break;
     default:
-        console.log(`Enter the number of week days`);
 }
