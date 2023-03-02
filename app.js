@@ -1,56 +1,84 @@
-// // 1. Function Declaration == Funksiya e'lon qilish
-// // function foo(t) {
-// //     return t;
+// // // 1. Function Declaration == Funksiya e'lon qilish
+// // // function foo(t) {
+// // //     return t;
+// // // }
+
+// // // foo(1111)
+
+// // // //2. Function exprission
+
+// // // const abs = function (uuu) {
+// // //     console.log(uuu);
+// // // };
+// // // abs(555)
+
+// // // //3. Arrow Function
+
+// // // const aaa = (a) => console.log(a);
+
+// // // aaa("arrow");
+
+// // let time = prompt(`time`)
+// // let fname = prompt(`fname`)
+
+// // const text = function (tttt) {
+// //     if (tttt > 8 && tttt <= 12) {
+// //         alert(`Good morning`)
+// //     } else if (tttt > 13 && tttt <= 20) {
+// //         alert(`Good afternoon`)
+// //     } else {
+// //         alert(`Good night`)
+// //     }
 // // }
 
-// // foo(1111)
+// // alert(text(time))
 
-// // //2. Function exprission
+// // const greeting = (f, t) => t > 8 && t < 18 ? alert(`Good afternoon, ${f}`) : alert(`Good night, ${f}`);
 
-// // const abs = function (uuu) {
-// //     console.log(uuu);
-// // };
-// // abs(555)
+// // greeting(fname, time);
 
-// // //3. Arrow Function
 
-// // const aaa = (a) => console.log(a);
+// let text = prompt("5+5=")
+// let tttt = prompt(`5 / 5=`)
 
-// // aaa("arrow");
-
-// let time = prompt(`time`)
-// let fname = prompt(`fname`)
-
-// const text = function (tttt) {
-//     if (tttt > 8 && tttt <= 12) {
-//         alert(`Good morning`)
-//     } else if (tttt > 13 && tttt <= 20) {
-//         alert(`Good afternoon`)
+// function foo(text) {
+//     if (text == 10) {
+//         alert(`Siz togri javob berdingiz 5 + 5 = 10`)
+//     } else if (text == 0) {
+//         alert(`Siz notogri javob berdingiz 5 + 5 = 10`)
+//     } else if (tttt == 1) {
+//         alert(`siz togri javob berdingiz 5 / 5 = 1`)
 //     } else {
-//         alert(`Good night`)
+//         alert(`siz notogri javob berdingiz 5 / 5 = 1`)
 //     }
 // }
+// alert(foo(tttt))
+// alert(foo(text))
 
-// alert(text(time))
+const week = 1
 
-// const greeting = (f, t) => t > 8 && t < 18 ? alert(`Good afternoon, ${f}`) : alert(`Good night, ${f}`);
-
-// greeting(fname, time);
-
-
-let text = prompt("5+5=")
-let tttt = prompt(`5 / 5=`)
-
-function foo(text) {
-    if (text == 10) {
-        alert(`Siz togri javob berdingiz 5 + 5 = 10`)
-    } else if (text == 0) {
-        alert(`Siz notogri javob berdingiz 5 + 5 = 10`)
-    } else if (tttt == 1) {
-        alert(`siz togri javob berdingiz 5 / 5 = 1`)
-    } else {
-        alert(`siz notogri javob berdingiz 5 / 5 = 1`)
-    }
+switch (week) {
+    case 1:
+        console.log(`Monday`);
+        break;
+    case 2:
+        console.log(`Tuesday`);
+        break;
+    case 3:
+        console.log(`Wednesday`);
+        break;
+    case 4:
+        console.log(`Thursday`);
+        break;
+    case 5:
+        console.log(`Friday`);
+        break;
+    case 6:
+        console.log(`Saturday`);
+        break;
+    case 7:
+        console.log(`Sonday`);
+        break;
+    default:
+        console.log(`Enter the number of week days`);
 }
-alert(foo(tttt))
-alert(foo(text))
