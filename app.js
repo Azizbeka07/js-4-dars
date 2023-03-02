@@ -39,7 +39,7 @@
 
 
 let text = prompt("5+5=")
-let tttt = prompt(`5:5=`)
+let tttt = prompt(`5 / 5=`)
 
 function foo(text) {
     if (text == 10) {
