@@ -43,13 +43,13 @@ let tttt = prompt(`5 / 5=`)
 
 function foo(text) {
     if (text == 10) {
-        alert(`Siz togri javob berdingiz`)
+        alert(`Siz togri javob berdingiz 5 + 5 = 10`)
     } else if (text == 0) {
-        alert(`Siz notogri javob berdingiz`)
+        alert(`Siz notogri javob berdingiz 5 + 5 = 10`)
     } else if (tttt == 1) {
-        alert(`siz togri javob berdingiz`)
+        alert(`siz togri javob berdingiz 5 / 5 = 1`)
     } else {
-        alert(`siz notogri javob berdingiz`)
+        alert(`siz notogri javob berdingiz 5 / 5 = 1`)
     }
 }
 alert(foo(tttt))
